@@ -7,3 +7,5 @@ wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.np
 unzip dogImages.zip
 unzip lfw.zip
 mv DogVGG16Data.npz bottleneck_features
+
+python3 -m pip install -r requirements/requirements-gpu.txt
